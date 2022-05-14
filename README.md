@@ -1,3 +1,3 @@
-# smart_contract
+# smart contract
 smart contract
 https://ethfiddle.com/XiuEZEZnkb
