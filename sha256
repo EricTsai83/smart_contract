@@ -1,0 +1,16 @@
+Last login: Sat May 14 23:27:05 on ttys000
+(base) eric@caiyaolideMacBook-Pro ~ % which
+(base) eric@caiyaolideMacBook-Pro ~ % whic shasum
+zsh: command not found: whic
+(base) eric@caiyaolideMacBook-Pro ~ % which shasum
+/usr/bin/shasum
+(base) eric@caiyaolideMacBook-Pro ~ % echo -n 'hi' | shasum -a 256
+8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4  -
+(base) eric@caiyaolideMacBook-Pro ~ % echo -n 'hi yo' | shasum -a 256
+72c0230aec15d90a62ef014a080d5907762fec71e553e3a64bcac619c1ae2285  -
+(base) eric@caiyaolideMacBook-Pro ~ % echo -n 'eric' | shasum -a 256
+6f9edcd3408cbda14a837e6a44fc5b7f64ccc9a2477c1498fcb13c777ffb9605  -
+(base) eric@caiyaolideMacBook-Pro ~ % echo -n 'eric' | shasum -a 256
+6f9edcd3408cbda14a837e6a44fc5b7f64ccc9a2477c1498fcb13c777ffb9605  -
+(base) eric@caiyaolideMacBook-Pro ~ % shasum -a 256 /Users/eric/Downloads/Hahow\ for\ Business00：05.png  
+37cda03c209b29669628ffadb834af1af0c2a7c42ea2ce1b7ffccd5efcd158f2  /Users/eric/Downloads/Hahow for Business00：05.png
